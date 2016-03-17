@@ -17,82 +17,40 @@
 
     <Button
         android:id="@+id/mega_sena_button"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textSize="24dp"
-        android:textStyle="bold|italic"
         android:textColor="#209869"
-        android:background="#E8F5E9"
-        android:text="MEGA-SENA"
+        style="@style/MenuItens1"
+        android:text="MEGA SENA"
         android:drawableLeft="@drawable/logo_mega_sena"
-        android:paddingLeft="20dp"
-        android:drawablePadding="-20dp"
         android:onClick="abrirMegaSena"/>
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textSize="24dp"
-        android:textStyle="bold|italic"
         android:textColor="#930089"
-        android:background="#FFFFFF"
+        style="@style/MenuItens2"
         android:text="LOTOFÁCIL"
-        android:paddingLeft="20dp"
-        android:drawablePadding="-20dp"
         android:drawableLeft="@drawable/logo_lotofacil" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textSize="24dp"
-        android:textStyle="bold|italic"
         android:textColor="#260085"
-        android:background="#E8F5E9"
+        style="@style/MenuItens1"
         android:text="QUINA"
-        android:paddingLeft="20dp"
-        android:drawablePadding="-20dp"
         android:drawableLeft="@drawable/logo_quina" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textSize="24dp"
-        android:textStyle="bold|italic"
         android:textColor="#f78100"
-        android:background="#FFFFFF"
+        style="@style/MenuItens2"
         android:text="LOTOMANIA"
-        android:paddingLeft="20dp"
-        android:drawablePadding="-20dp"
         android:drawableLeft="@drawable/logo_lotomania" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textSize="24dp"
-        android:textStyle="bold|italic"
         android:textColor="#00ff48"
-        android:background="#E8F5E9"
+        style="@style/MenuItens1"
         android:text="TIMEMANIA"
-        android:paddingLeft="20dp"
-        android:drawablePadding="-20dp"
         android:drawableLeft="@drawable/logo_timemania" />
 
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:textSize="24dp"
-        android:textStyle="bold|italic"
         android:textColor="#a61324"
-        android:background="#FFFFFF"
         android:text="DUPLA SENA"
-        android:paddingLeft="20dp"
-        android:drawablePadding="-20dp"
+        style="@style/MenuItens2"
         android:drawableLeft="@drawable/logo_dupla_sena" />
 
 </LinearLayout>
